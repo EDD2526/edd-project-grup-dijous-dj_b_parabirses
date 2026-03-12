@@ -1,7 +1,7 @@
-# Projecte XXXXXXXXXXXXX
+# Projecte DJ_B_PARABRISAS
 
->**Autors:** 
->**Versió: **
+>**Autors:Héctor y MariPaz
+>**Versió: xx
 
 ----------
 
@@ -11,6 +11,7 @@
 
 
 ## Diagrama de blocs
+
 
 
 ### Descripció/funcionalitat de cada bloc
