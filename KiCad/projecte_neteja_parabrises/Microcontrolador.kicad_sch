@@ -1086,7 +1086,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4738a97b-e6e6-4bb3-bc84-107e5c1f855c")
+<<<<<<< HEAD
 		(property "Reference" "U1"
+=======
+		(property "Reference" "U?"
+>>>>>>> Botonera
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -1217,6 +1221,15 @@
 			(project ""
 				(path "/13b3ea76-35d1-4ab6-902e-d6623dcea9d5"
 					(reference "U1")
+<<<<<<< HEAD
+=======
+					(unit 1)
+				)
+			)
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e"
+					(reference "U?")
+>>>>>>> Botonera
 					(unit 1)
 				)
 			)

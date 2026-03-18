@@ -2858,8 +2858,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0699b2ef-59a7-4b49-af37-0f94e141629e")
+<<<<<<< HEAD
 		(property "Reference" "#PWR02"
+<<<<<<< HEAD
 			(at 27.94 53.975 0)
+=======
+=======
+		(property "Reference" "#PWR?"
+>>>>>>> Botonera
+			(at 92.71 73.66 0)
+>>>>>>> 0b1698cd405f2f1f1f22a72962de6dc9099e886c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,6 +2920,15 @@
 					(unit 1)
 				)
 			)
+<<<<<<< HEAD
+=======
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+>>>>>>> Botonera
 		)
 	)
 	(symbol
@@ -4175,10 +4192,20 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(fields_autoplaced yes)
 		(uuid "b42e48c2-bc3c-4eab-930f-cc9b02e47938")
 		(property "Reference" "HEATER"
 			(at 247.015 31.75 90)
+=======
+		(uuid "be86d2f5-2bd9-4a4e-9fd8-294935b4d445")
+<<<<<<< HEAD
+		(property "Reference" "1k"
+=======
+		(property "Reference" "R1"
+>>>>>>> Botonera
+			(at 114.935 122.555 90)
+>>>>>>> 0b1698cd405f2f1f1f22a72962de6dc9099e886c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,8 +4557,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5f94bd-c210-44f5-a237-9fd98605eb8f")
+<<<<<<< HEAD
 		(property "Reference" "#PWR01"
+<<<<<<< HEAD
 			(at 80.01 53.34 0)
+=======
+=======
+		(property "Reference" "#PWR?"
+>>>>>>> Botonera
+			(at 144.78 73.025 0)
+>>>>>>> 0b1698cd405f2f1f1f22a72962de6dc9099e886c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,6 +4616,13 @@
 			(project ""
 				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
