@@ -780,6 +780,28 @@
 		)
 		(uuid "f11e54d8-5142-4b3d-9b1a-20b15d2fcc0d")
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 162.56 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30133fc6-1cd2-481b-833a-448b7d5d5ce0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.1738 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Regulator_Linear:LM1117DT-3.3")
 		(at 146.05 86.36 0)
