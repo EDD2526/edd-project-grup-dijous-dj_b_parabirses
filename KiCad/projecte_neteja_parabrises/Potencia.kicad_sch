@@ -5,284 +5,6 @@
 	(uuid "82bf9682-9f8b-46a0-adc6-e19c50674fc0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Comparator:LM393"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM393"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp open collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM393_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -2444,10 +2166,22 @@
 		)
 	)
 	(junction
+		(at 46.99 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb8e9a2-0089-4b37-b8d2-8f45c92960dc")
+	)
+	(junction
 		(at 150.495 57.785)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "563b23a6-f4d5-4a4e-9239-ae94ab156d63")
+	)
+	(junction
+		(at 45.085 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ac7a33-48f0-4163-ba9a-425bbd8a88ef")
 	)
 	(no_connect
 		(at 158.115 40.005)
@@ -2549,6 +2283,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 100.33) (xy 46.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dfa4f3-e499-4dea-95d0-7e026621a218")
+	)
+	(wire
+		(pts
+			(xy 41.275 90.17) (xy 45.085 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f048da3-bfd2-4574-bc7c-25c0deabc47f")
+	)
+	(wire
+		(pts
 			(xy 99.06 27.94) (xy 99.06 31.75)
 		)
 		(stroke
@@ -2566,6 +2320,16 @@
 			(type default)
 		)
 		(uuid "9119087d-0c73-44f7-a537-ba0f8bb80673")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 50.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0c22c9-1797-4d11-becf-ef67805e3a69")
 	)
 	(wire
 		(pts
@@ -2689,6 +2453,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.085 90.17) (xy 51.435 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d04a40-48f8-4f84-8b5e-3de85a9b6a80")
+	)
+	(wire
+		(pts
 			(xy 168.275 27.94) (xy 168.275 40.005)
 		)
 		(stroke
@@ -2785,6 +2559,28 @@
 	)
 	(global_label "micro"
 		(shape input)
+		(at 41.91 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6274bd52-b2d6-425b-b2d7-b8ac55cc5149")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.6029 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "micro"
+		(shape input)
 		(at 135.255 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2796,6 +2592,28 @@
 		(uuid "64432a5b-5b79-4f55-8c59-c109f61ec2a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.9479 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "micro"
+		(shape input)
+		(at 41.275 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd1ba7c9-6275-4153-a32c-5ba995be1939")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.9679 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,16 +2676,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0699b2ef-59a7-4b49-af37-0f94e141629e")
-<<<<<<< HEAD
 		(property "Reference" "#PWR02"
-<<<<<<< HEAD
 			(at 27.94 53.975 0)
-=======
-=======
-		(property "Reference" "#PWR?"
->>>>>>> Botonera
-			(at 92.71 73.66 0)
->>>>>>> 0b1698cd405f2f1f1f22a72962de6dc9099e886c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,20 +2730,17 @@
 					(unit 1)
 				)
 			)
-<<<<<<< HEAD
-=======
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
->>>>>>> Botonera
 		)
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 79.375 78.105 0)
+		(at 56.515 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2941,8 +2748,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "104f2bcf-765e-4ed1-836c-de4c6cf04669")
-		(property "Reference" "SW1"
-			(at 79.375 71.12 0)
+		(property "Reference" "FINALCARRERA1"
+			(at 56.515 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2757,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 79.375 73.66 0)
+			(at 56.515 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.375 78.105 0)
+			(at 56.515 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 79.375 78.105 0)
+			(at 56.515 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2783,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 79.375 78.105 0)
+			(at 56.515 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2800,7 @@
 		(instances
 			(project ""
 				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
-					(reference "SW1")
+					(reference "FINALCARRERA1")
 					(unit 1)
 				)
 			)
@@ -3061,92 +2868,6 @@
 			(project ""
 				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 60.96 80.645 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b97a55d-4c36-4fbd-9758-eacdc6fa671f")
-		(property "Reference" "U1"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 60.96 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 60.96 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6552a0d7-f206-4a16-871a-387a1d467d00")
-		)
-		(pin "8"
-			(uuid "85d59ef5-ab69-4f59-b37e-7cb05caac87d")
-		)
-		(pin "5"
-			(uuid "fc911046-14c5-4807-938b-27a25c733a34")
-		)
-		(pin "6"
-			(uuid "8143d3e2-a14b-4b1c-bc86-b8f9fba75eb8")
-		)
-		(pin "7"
-			(uuid "f4b01ddc-4459-4390-b3a1-f8e6504c5f03")
-		)
-		(pin "4"
-			(uuid "9f7402bb-be61-4792-92b2-52db906f529e")
-		)
-		(pin "1"
-			(uuid "3ed3aeef-4bec-4e16-8f82-b7baa719b22e")
-		)
-		(pin "2"
-			(uuid "c1d6fa85-a958-4a08-a229-9cf222a314e2")
-		)
-		(instances
-			(project ""
-				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3241,6 +2962,72 @@
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.085 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "260d3de4-3928-4ec0-b5d2-651359df036d")
+		(property "Reference" "#PWR08"
+			(at 45.085 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.085 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.085 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21c10297-09aa-4f4d-bc01-f0287dcbf54e")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3498,92 +3285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM393")
-		(at 60.325 95.25 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e87125f-4ac6-457e-8350-377d23ef30c9")
-		(property "Reference" "U1"
-			(at 60.325 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 60.325 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.325 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 60.325 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 60.325 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6552a0d7-f206-4a16-871a-387a1d467d00")
-		)
-		(pin "8"
-			(uuid "85d59ef5-ab69-4f59-b37e-7cb05caac87d")
-		)
-		(pin "5"
-			(uuid "fc911046-14c5-4807-938b-27a25c733a34")
-		)
-		(pin "6"
-			(uuid "8143d3e2-a14b-4b1c-bc86-b8f9fba75eb8")
-		)
-		(pin "7"
-			(uuid "f4b01ddc-4459-4390-b3a1-f8e6504c5f03")
-		)
-		(pin "4"
-			(uuid "9f7402bb-be61-4792-92b2-52db906f529e")
-		)
-		(pin "1"
-			(uuid "3ed3aeef-4bec-4e16-8f82-b7baa719b22e")
-		)
-		(pin "2"
-			(uuid "c1d6fa85-a958-4a08-a229-9cf222a314e2")
-		)
-		(instances
-			(project ""
-				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 147.955 64.77 0)
 		(unit 1)
@@ -3767,6 +3468,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 46.99 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b6550b6-f2b3-4245-a124-5a1946a66c49")
+		(property "Reference" "#PWR07"
+			(at 46.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7b0c14a-4202-4ed8-a603-b963c3e85dd2")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3927,6 +3694,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 46.99 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9945cbb6-8af4-47e3-9621-53ce0b776404")
+		(property "Reference" "R3"
+			(at 49.53 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 49.53 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.212 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff2c5d9c-60d4-4182-b87c-d40dfabc2863")
+		)
+		(pin "2"
+			(uuid "ad22bc2b-1ace-462a-be7b-881780f53769")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.245 27.94 90)
 		(unit 1)
@@ -4000,26 +3837,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM393")
-		(at 39.37 78.105 180)
-		(unit 3)
+		(lib_id "power:GND")
+		(at 61.595 90.17 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4fdbf7b-4d95-49d5-8f82-a42341fb7d0a")
-		(property "Reference" "U1"
-			(at 43.18 76.8349 0)
+		(uuid "a358e46b-d44c-4c11-8589-f20b6d25d6fb")
+		(property "Reference" "#PWR05"
+			(at 67.945 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "LM393"
-			(at 43.18 79.3749 0)
+		(property "Value" "GND"
+			(at 64.77 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 78.105 0)
+			(at 61.595 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,8 +3873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 39.37 78.105 0)
+		(property "Datasheet" ""
+			(at 61.595 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,44 +3882,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 39.37 78.105 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 61.595 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "6552a0d7-f206-4a16-871a-387a1d467d00")
-		)
-		(pin "8"
-			(uuid "85d59ef5-ab69-4f59-b37e-7cb05caac87d")
-		)
-		(pin "5"
-			(uuid "fc911046-14c5-4807-938b-27a25c733a34")
-		)
-		(pin "6"
-			(uuid "8143d3e2-a14b-4b1c-bc86-b8f9fba75eb8")
-		)
-		(pin "7"
-			(uuid "f4b01ddc-4459-4390-b3a1-f8e6504c5f03")
-		)
-		(pin "4"
-			(uuid "9f7402bb-be61-4792-92b2-52db906f529e")
 		)
 		(pin "1"
-			(uuid "3ed3aeef-4bec-4e16-8f82-b7baa719b22e")
-		)
-		(pin "2"
-			(uuid "c1d6fa85-a958-4a08-a229-9cf222a314e2")
+			(uuid "698b383f-f9d9-476a-86d5-26570b8a1ad6")
 		)
 		(instances
 			(project ""
 				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
-					(reference "U1")
-					(unit 3)
+					(reference "#PWR05")
+					(unit 1)
 				)
 			)
 		)
@@ -4186,26 +4002,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 45.085 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0665995-7aa0-4e49-8448-99fa512f54b4")
+		(property "Reference" "R2"
+			(at 46.99 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 46.99 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.307 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.085 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.085 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "507a5210-ad1a-4e8d-92f5-f744f338f58a")
+		)
+		(pin "1"
+			(uuid "8aeab8b1-54ab-4fb0-a371-f276274b04e4")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 247.015 37.465 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-<<<<<<< HEAD
 		(fields_autoplaced yes)
 		(uuid "b42e48c2-bc3c-4eab-930f-cc9b02e47938")
 		(property "Reference" "HEATER"
 			(at 247.015 31.75 90)
-=======
-		(uuid "be86d2f5-2bd9-4a4e-9fd8-294935b4d445")
-<<<<<<< HEAD
-		(property "Reference" "1k"
-=======
-		(property "Reference" "R1"
->>>>>>> Botonera
-			(at 114.935 122.555 90)
->>>>>>> 0b1698cd405f2f1f1f22a72962de6dc9099e886c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,16 +4433,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5f94bd-c210-44f5-a237-9fd98605eb8f")
-<<<<<<< HEAD
 		(property "Reference" "#PWR01"
-<<<<<<< HEAD
 			(at 80.01 53.34 0)
-=======
-=======
-		(property "Reference" "#PWR?"
->>>>>>> Botonera
-			(at 144.78 73.025 0)
->>>>>>> 0b1698cd405f2f1f1f22a72962de6dc9099e886c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,10 +4487,76 @@
 					(unit 1)
 				)
 			)
-
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd12b2f1-c058-49f5-bf3a-b2ac44bcce93")
+		(property "Reference" "#PWR06"
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca45ec43-cce4-46b0-8e83-aef2e61580c8")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4730,7 +4664,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 78.74 88.265 0)
+		(at 55.88 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4738,8 +4672,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6066715-3b14-49a2-b6f1-174dfb0e17af")
-		(property "Reference" "SW2"
-			(at 78.74 81.28 0)
+		(property "Reference" "FINALCARRERA2"
+			(at 55.88 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4681,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 78.74 83.82 0)
+			(at 55.88 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 88.265 0)
+			(at 55.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 88.265 0)
+			(at 55.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4707,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 78.74 88.265 0)
+			(at 55.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4724,7 @@
 		(instances
 			(project ""
 				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
-					(reference "SW2")
+					(reference "FINALCARRERA2")
 					(unit 1)
 				)
 			)
