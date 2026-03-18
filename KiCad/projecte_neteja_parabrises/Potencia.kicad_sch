@@ -1898,6 +1898,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 92.71 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0699b2ef-59a7-4b49-af37-0f94e141629e")
+		(property "Reference" "#PWR?"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0073d549-2303-401c-b2de-22b6684b53f2")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 111.76 102.87 270)
 		(unit 1)
@@ -1977,6 +2049,12 @@
 			(uuid "543927e1-2d92-4990-9628-056010724483")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "D1")
@@ -2068,6 +2146,12 @@
 			(uuid "e65e6d1f-2ea4-40e1-88c1-4d46887f828d")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "U2")
@@ -2168,6 +2252,12 @@
 			(uuid "5d94ea37-fef7-4305-a062-6a0015491261")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "Q1")
@@ -2238,6 +2328,12 @@
 			(uuid "773659ad-745d-4683-9a5a-e597b96d8fba")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "M?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "M1")
@@ -2304,6 +2400,12 @@
 			(uuid "49a7cbb1-acbb-4bc8-9998-00ffcbd1fdfd")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "#PWR01")
@@ -2371,6 +2473,12 @@
 			(uuid "8e29c50e-31a4-420c-8508-e2ea04770107")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "#PWR02")
@@ -2462,6 +2570,12 @@
 			(uuid "5767ee16-b67d-4eb5-b156-446bb8bb3417")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "U3")
@@ -2478,10 +2592,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be86d2f5-2bd9-4a4e-9fd8-294935b4d445")
 		(property "Reference" "R1"
-			(at 114.3 111.76 90)
+			(at 114.935 122.555 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,6 +2643,12 @@
 			(uuid "a6abd676-7ecf-4ef5-8190-a3c86833da97")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "1k")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "R1")
@@ -2597,6 +2716,12 @@
 			(uuid "8192f583-d65e-4d6b-bddf-df57c5250cff")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "M?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "M3")
@@ -2665,6 +2790,12 @@
 			(uuid "f5344ee9-5c82-4541-9846-731e45f0a53f")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "M?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "M4")
@@ -2753,9 +2884,87 @@
 			(uuid "3ab3b748-564f-4b30-9a63-6126f2200140")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "K?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 66.675 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5f94bd-c210-44f5-a237-9fd98605eb8f")
+		(property "Reference" "#PWR?"
+			(at 144.78 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded7ec2e-03b1-40f3-81b6-1f3b8861c2f9")
+		)
+		(instances
+			(project ""
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2823,6 +3032,12 @@
 			(uuid "6ee67e38-fbcf-40ff-aee0-d7d358eb9d54")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "M?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "M2")
@@ -2889,6 +3104,12 @@
 			(uuid "827e2e2b-3e59-4eb5-aac5-b2644379d244")
 		)
 		(instances
+			(project "Potencia"
+				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
 					(reference "#PWR03")
@@ -2897,4 +3118,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
