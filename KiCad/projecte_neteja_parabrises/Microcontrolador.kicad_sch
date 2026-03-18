@@ -1918,7 +1918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd65f8ef-2a4e-48b3-ad5a-8558a3a08ede")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 144.3833 146.05 0)
 			(effects
 				(font
@@ -2156,6 +2156,12 @@
 			(uuid "f17b96f4-86f3-4b10-b552-08a9dab8c7b6")
 		)
 		(instances
+			(project "Microcontrolador"
+				(path "/13b3ea76-35d1-4ab6-902e-d6623dcea9d5"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e"
 					(reference "U1")
@@ -2174,7 +2180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff49c30-6c70-423b-aad9-e06ceda020f5")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 57.785 46.99 0)
 			(effects
 				(font
@@ -2245,6 +2251,12 @@
 			(uuid "d2093a1b-b748-447e-aacd-59f690915f09")
 		)
 		(instances
+			(project "Microcontrolador"
+				(path "/13b3ea76-35d1-4ab6-902e-d6623dcea9d5"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e"
 					(reference "J1")
@@ -2253,4 +2265,99 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:Conn_01x09_Pin")
+		(at 57.15 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd21618e-2a28-4481-a4e0-f9192bde5b5d")
+		(property "Reference" "J1"
+			(at 57.785 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x09_Pin"
+			(at 57.785 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8312db37-90ca-47ea-8265-88b45ac320cf")
+		)
+		(pin "2"
+			(uuid "a0bfd5fc-8319-4938-9796-ecd268860bbb")
+		)
+		(pin "1"
+			(uuid "8d219ddb-baad-4db1-8a7d-f75d6978ae5e")
+		)
+		(pin "7"
+			(uuid "346e22ec-3ad6-4beb-a18b-21ef5a65a756")
+		)
+		(pin "9"
+			(uuid "0a890eb3-d763-40b1-b725-896667c2498c")
+		)
+		(pin "5"
+			(uuid "6e1fc8a8-c3db-4846-aa70-23f5386aa7f6")
+		)
+		(pin "4"
+			(uuid "c81eb439-a94f-4ea1-bd2d-0abc7ab15fc7")
+		)
+		(pin "8"
+			(uuid "c21dcefa-2041-43b1-83ef-bee82f1a25e7")
+		)
+		(pin "6"
+			(uuid "3df186fa-226d-445a-a9d4-97bd697c1d77")
+		)
+		(instances
+			(project ""
+				(path "/13b3ea76-35d1-4ab6-902e-d6623dcea9d5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
