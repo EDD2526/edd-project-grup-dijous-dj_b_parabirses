@@ -1908,7 +1908,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "Alimentación"
+	(global_label "VDD"
 		(shape input)
 		(at 102.87 102.87 0)
 		(fields_autoplaced yes)
@@ -1920,7 +1920,7 @@
 		)
 		(uuid "69d96889-64be-4211-af10-aa1c23796d61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.0108 102.87 0)
+			(at 109.4838 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2204,7 @@
 		(uuid "eff49c30-6c70-423b-aad9-e06ceda020f5")
 		(property "Reference" "J1"
 			(at 40.005 87.63 0)
-			 			(effects
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
@@ -2382,10 +2382,10 @@
 			)
 		)
 	)
-(sheet_instances
-	(path "/"
-		(page "1")
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
 	)
-)
-(embedded_fonts no)
+	(embedded_fonts no)
 )
