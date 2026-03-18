@@ -155,7 +155,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Rotary_1x4_MP"
+		(symbol "Switch:SW_Rotary_1x5_MP"
 			(pin_names
 				(hide yes)
 			)
@@ -170,8 +170,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_Rotary_1x4_MP"
-				(at 8.89 -6.35 0)
+			(property "Value" "SW_Rotary_1x5_MP"
+				(at 8.89 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -196,7 +196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary switch 1x4, SP4T with mount point"
+			(property "Description" "Rotary switch 1x5, SP5T with mount point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -205,7 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Rotary switch 1x4 SP4T"
+			(property "ki_keywords" "Rotary switch 1x5 SP5T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -214,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Rotary_1x4_MP_0_1"
+			(symbol "SW_Rotary_1x5_MP_0_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -3.81 0)
@@ -298,10 +298,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.3174 -1.5875) (xy 0.3174 -1.5875)
-					)
+				(circle
+					(center 0.635 4.445)
+					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -311,7 +310,7 @@
 					)
 				)
 				(circle
-					(center 0.635 4.445)
+					(center 0.635 -4.445)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -402,378 +401,9 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SW_Rotary_1x4_MP_1_1"
 				(polyline
 					(pts
-						(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 6.35) (xy -5.08 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SP4T_NR01104"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SP4T_NR01104"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NKK Switches NR01 Series rotary SP4T switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NR01 SP4T Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?NKK?NR01*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SP4T_NR01104_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy 0.635 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.9526 2.2225)
-					(mid 0.154 0.449)
-					(end -0.3176 -1.5875)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3174 -1.5875) (xy 0.3174 -1.5875)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.635 4.445)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 -2.54)
+						(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -784,7 +414,7 @@
 					)
 				)
 			)
-			(symbol "SW_SP4T_NR01104_1_1"
+			(symbol "SW_Rotary_1x5_MP_1_1"
 				(polyline
 					(pts
 						(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 6.35) (xy -5.08 6.35)
@@ -800,14 +430,14 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "Common"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -818,7 +448,7 @@
 				(pin passive line
 					(at -7.62 -5.08 0)
 					(length 2.54)
-					(name "MP"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -833,29 +463,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 5.08 -5.08 180)
-					(length 0)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 5.08 180)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -873,7 +484,7 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -891,7 +502,7 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -909,7 +520,7 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "4"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -924,89 +535,142 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
-	(symbol
-		(lib_id "Switch:SW_Rotary_1x4_MP")
-		(at 134.62 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "855a4f05-f5d4-41de-9024-4a4b3ee66ffa")
-		(property "Reference" "SW4"
-			(at 134.62 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+	(no_connect
+		(at 92.71 100.33)
+		(uuid "cf1f6f3d-5788-4a3c-9b53-9593a110ff51")
+	)
+	(wire
+		(pts
+			(xy 107.95 90.17) (xy 109.22 90.17)
 		)
-		(property "Value" "SW_Rotary_1x4_MP"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" ""
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch 1x4, SP4T with mount point"
-			(at 134.62 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb80d6fa-38b4-40f9-8dd8-26bbc38e7aa1")
-		)
-		(pin "4"
-			(uuid "aab7a039-1c6f-435c-9a95-3c702228cd48")
-		)
-		(pin "MP"
-			(uuid "0ba031b8-5c10-40d7-9c3c-da92decaa69d")
-		)
-		(pin "1"
-			(uuid "fd996bea-e9d6-4809-b3a8-af096d2ec41c")
-		)
-		(pin "5"
-			(uuid "3a6daa3a-7119-43b9-a27c-2b35fd3b560a")
-		)
-		(pin "3"
-			(uuid "12da46fc-e775-4d2b-823a-8f58eff35e2e")
-		)
-		(instances
-			(project ""
-				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/3042c433-3fca-444b-8551-ace7b9d4faf6"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "4de8cfd9-9e3e-423a-9d99-cd6072330758")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -1070,6 +734,73 @@
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/3042c433-3fca-444b-8551-ace7b9d4faf6"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a655012-ffa8-447d-8d75-66cba089f2f3")
+		(property "Reference" "#PWR04"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "009698cc-35ef-4c50-8c7c-cd8d1b3c2570")
+		)
+		(instances
+			(project ""
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/3042c433-3fca-444b-8551-ace7b9d4faf6"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1143,42 +874,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SP4T_NR01104")
-		(at 101.6 93.98 0)
+		(lib_id "Switch:SW_Rotary_1x5_MP")
+		(at 100.33 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecdf981a-8f1e-48f5-b667-bbbae15a1972")
-		(property "Reference" "SW3"
-			(at 101.6 82.55 0)
+		(uuid "e1322c28-1908-43a4-9217-483d2c663227")
+		(property "Reference" "SW5"
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SP4T_NR01104"
-			(at 101.6 85.09 0)
+		(property "Value" "SW_Rotary_1x5_MP"
+			(at 100.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
-			(at 101.6 106.68 0)
+		(property "Footprint" ""
+			(at 100.33 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,8 +908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NKK Switches NR01 Series rotary SP4T switch"
-			(at 101.6 93.98 0)
+		(property "Datasheet" "~"
+			(at 100.33 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,31 +917,40 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "481e1a8a-aa8b-4423-9153-8c79599f3243")
-		)
-		(pin "3"
-			(uuid "86e963be-bd0b-4d85-9f41-7d0ba19ce4cc")
-		)
-		(pin "MP"
-			(uuid "c50d2e87-9411-4387-8afd-b814f6dc23a9")
+		(property "Description" "Rotary switch 1x5, SP5T with mount point"
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4533ebf1-db33-4e7a-af4e-bb68d8fbabdc")
-		)
-		(pin "C"
-			(uuid "e0bb0459-3d9c-433a-841f-264c6fa93225")
+			(uuid "b9214151-1ae6-4a21-b131-8fa593037ce6")
 		)
 		(pin "2"
-			(uuid "c8578dc6-efc4-46fd-8fbe-7949ecae2d82")
+			(uuid "e9a5d8ce-8a4c-43be-88f0-e876a0311767")
+		)
+		(pin "MP"
+			(uuid "59e424be-e737-4a71-ac5b-91179c20a9ec")
+		)
+		(pin "3"
+			(uuid "cec272aa-7fdb-4a53-9e9f-b1e8f720082f")
 		)
 		(pin "4"
-			(uuid "aec1cb19-15c1-4a14-917f-bfc46008306d")
+			(uuid "67a6a842-eb26-40c4-918c-7054d7080324")
+		)
+		(pin "6"
+			(uuid "5789f0c9-7443-4722-ba18-615fd1ce4b38")
+		)
+		(pin "5"
+			(uuid "7f691f46-dfb2-4bc4-adbe-07cd16476a3c")
 		)
 		(instances
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/3042c433-3fca-444b-8551-ace7b9d4faf6"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
