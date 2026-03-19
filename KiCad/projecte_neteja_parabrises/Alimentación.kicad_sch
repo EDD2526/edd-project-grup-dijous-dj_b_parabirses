@@ -806,6 +806,28 @@
 		)
 		(uuid "f11e54d8-5142-4b3d-9b1a-20b15d2fcc0d")
 	)
+	(global_label "12V"
+		(shape input)
+		(at 98.425 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00c89ec3-462e-4566-a33c-6fe1fa4b3524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.425 74.7872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 162.56 86.36 0)
