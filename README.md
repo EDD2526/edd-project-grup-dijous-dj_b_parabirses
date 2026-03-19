@@ -1,18 +1,18 @@
-View this project on [CADLAB.io](https://cadlab.io/project/30196). 
-
 # Projecte DJ_B_PARABRISAS
 
->**Autors:Héctor y MariPaz
->**Versió: xx
+>**Autors:Héctor Rodriguez y MariPaz Carreño
+>**Versió: V1
 
 ----------
 
 ## Objectiu
 
->PCB per ...
+>Crear un pcb para un limpia parabrisas, la cual tendrá control a través de un microcontrolador.
+EL objetivo principal es  mantener  la luna del cristal limpia, para ello tenemos un sensor de lluvia que detectará la lluvia, un calefactor para que no se empañe, y bombas de agua que permitan en todo momento limpiar la luna.
 
 
 ## Diagrama de blocs
+![Diagrama de bloques V1]("C:\Users\maryp\Desktop\Carrera\2ºcarrera\EDD\edd-project-grup-dijous-dj_b_parabirses\esquematico.png")
 
 
 
