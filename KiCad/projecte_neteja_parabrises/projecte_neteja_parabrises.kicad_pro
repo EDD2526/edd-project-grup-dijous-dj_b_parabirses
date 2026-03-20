@@ -422,12 +422,12 @@
       "Potencia"
     ],
     [
-      "3042c433-3fca-444b-8551-ace7b9d4faf6",
-      "Botonera"
-    ],
-    [
       "7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e",
       "Microcontrolador"
+    ],
+    [
+      "281f4b1b-fa83-45a0-8e9c-797a6b6648f6",
+      "Conexiones"
     ]
   ],
   "text_variables": {}

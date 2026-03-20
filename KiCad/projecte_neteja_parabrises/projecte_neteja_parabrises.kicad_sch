@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 40.64 105.41)
-		(size 63.5 43.18)
+		(at 21.59 74.295)
+		(size 64.135 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3042c433-3fca-444b-8551-ace7b9d4faf6")
-		(property "Sheetname" "Botonera"
-			(at 40.64 104.6984 0)
+		(uuid "281f4b1b-fa83-45a0-8e9c-797a6b6648f6")
+		(property "Sheetname" "Conexiones"
+			(at 21.59 73.5834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Botonera.kicad_sch"
-			(at 40.64 149.1746 0)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 21.59 119.3296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,16 +39,56 @@
 				(justify left top)
 			)
 		)
+		(property "Field2" ""
+			(at 21.59 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field3" ""
+			(at 21.59 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 21.59 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 21.59 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 21.59 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 144.78 40.64)
+		(at 110.49 21.59)
 		(size 67.31 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +104,7 @@
 		)
 		(uuid "54835b05-573d-4299-97f2-a5366b1fd616")
 		(property "Sheetname" "Potencia"
-			(at 144.78 39.9284 0)
+			(at 110.49 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +113,7 @@
 			)
 		)
 		(property "Sheetfile" "Potencia.kicad_sch"
-			(at 144.78 81.8646 0)
+			(at 110.49 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +130,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 104.14)
+		(at 109.855 73.025)
 		(size 67.31 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +146,7 @@
 		)
 		(uuid "7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e")
 		(property "Sheetname" "Microcontrolador"
-			(at 144.78 103.4284 0)
+			(at 109.855 72.3134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +155,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontrolador.kicad_sch"
-			(at 144.78 147.9046 0)
+			(at 109.855 116.7896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +172,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 41.91)
+		(at 21.59 21.59)
 		(size 64.77 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +188,7 @@
 		)
 		(uuid "a8962c48-b3a9-4541-b459-e1566624b900")
 		(property "Sheetname" "Alimentación"
-			(at 39.37 41.1984 0)
+			(at 21.59 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "Alimentación.kicad_sch"
-			(at 39.37 80.5946 0)
+			(at 21.59 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

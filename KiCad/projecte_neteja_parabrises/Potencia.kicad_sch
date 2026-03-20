@@ -2343,6 +2343,16 @@
 		)
 		(uuid "304fb258-c22a-4380-a719-0812b9d31410")
 	)
+	(wire
+		(pts
+			(xy 24.765 97.155) (xy 33.655 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33507bd9-7874-454a-b31b-2c83b4e57e53")
+	)
 	(polyline
 		(pts
 			(xy 190.5 90.805) (xy 190.5 12.065)
@@ -2505,13 +2515,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 27.305) (xy 168.275 27.305)
+			(xy 167.005 27.305) (xy 170.18 27.305)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d66d3297-e00b-4867-87cd-36d241f7182a")
+	)
+	(wire
+		(pts
+			(xy 250.825 27.305) (xy 247.65 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d779b879-f1ae-4a4d-abea-c775308c90e2")
 	)
 	(wire
 		(pts
@@ -2585,13 +2605,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 19.685) (xy 161.925 19.685)
+			(xy 165.735 19.685) (xy 161.925 19.685)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd95b8b9-a3dc-4b8f-9ede-c03ff67d44a7")
+	)
+	(wire
+		(pts
+			(xy 33.655 97.155) (xy 33.655 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe73f81e-3101-4039-94e1-ce600f114b13")
 	)
 	(global_label "GATE C"
 		(shape input)
@@ -2703,7 +2733,7 @@
 			)
 		)
 	)
-	(global_label "micro"
+	(global_label "FC2"
 		(shape input)
 		(at 30.48 116.84 180)
 		(fields_autoplaced yes)
@@ -2715,7 +2745,7 @@
 		)
 		(uuid "6274bd52-b2d6-425b-b2d7-b8ac55cc5149")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.1729 116.84 0)
+			(at 23.9267 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2777,7 @@
 			)
 		)
 	)
-	(global_label "PWM"
+	(global_label "PWM2"
 		(shape input)
 		(at 20.955 55.245 180)
 		(fields_autoplaced yes)
@@ -2759,7 +2789,7 @@
 		)
 		(uuid "6c95f8c3-0127-4e57-83bd-6f6c2582a2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.797 55.245 0)
+			(at 12.5875 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0699b2ef-59a7-4b49-af37-0f94e141629e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 31.115 46.355 0)
 			(effects
 				(font
@@ -2960,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "104f2bcf-765e-4ed1-836c-de4c6cf04669")
-		(property "Reference" "FINALCARRERA1"
+		(property "Reference" "FINALCARRERA2"
 			(at 45.085 99.695 0)
 			(effects
 				(font
@@ -3026,7 +3056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 27.305 90)
+		(at 250.825 27.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3034,8 +3064,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b7246ae-8a1f-4cd1-bc49-4662df34fe74")
-		(property "Reference" "#PWR03"
-			(at 254 27.305 0)
+		(property "Reference" "#PWR021"
+			(at 250.825 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,16 +3074,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 27.3049 90)
+			(at 253.365 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 27.305 0)
+			(at 250.825 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 27.305 0)
+			(at 250.825 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 27.305 0)
+			(at 250.825 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fdf9d1-9714-44f3-9cdc-e3c5c1f7c752")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 128.27 45.0849 90)
 			(effects
 				(font
@@ -3193,7 +3223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.655 99.06 180)
+		(at 24.765 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3201,8 +3231,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260d3de4-3928-4ec0-b5d2-651359df036d")
-		(property "Reference" "#PWR08"
-			(at 33.655 92.71 0)
+		(property "Reference" "#PWR016"
+			(at 24.765 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,15 +3241,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.655 94.615 0)
+			(at 26.67 98.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.655 99.06 0)
+			(at 24.765 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.655 99.06 0)
+			(at 24.765 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.655 99.06 0)
+			(at 24.765 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb0ce0e-90d4-4d6e-9a76-494a424999e8")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 217.17 44.45 90)
 			(effects
 				(font
@@ -3347,7 +3378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3179d5c3-2302-4d54-a0f5-09cb5c210313")
-		(property "Reference" "K1"
+		(property "Reference" "K2"
 			(at 220.98 36.1949 0)
 			(effects
 				(font
@@ -3439,7 +3470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3b7657-0b0c-4012-ae55-b987e13167bb")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 33.2583 17.145 0)
 			(effects
 				(font
@@ -3536,7 +3567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e2e190-28f4-4e6d-8533-b8cfd87bb754")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 139.7 62.8649 0)
 			(effects
 				(font
@@ -3642,7 +3673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48629e19-de55-46f4-b58d-9215a95e6c78")
-		(property "Reference" "M?"
+		(property "Reference" "M1"
 			(at 62.23 27.9399 0)
 			(effects
 				(font
@@ -3718,7 +3749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6550b6-f2b3-4245-a124-5a1946a66c49")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 35.56 130.81 0)
 			(effects
 				(font
@@ -3782,15 +3813,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 19.685 90)
+		(at 165.735 19.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8df6058e-a490-457c-bd3c-5ec48e2123d4")
-		(property "Reference" "#PWR?"
-			(at 170.18 19.685 0)
+		(property "Reference" "#PWR0102"
+			(at 165.735 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 16.51 90)
+			(at 170.18 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 19.685 0)
+			(at 165.735 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 19.685 0)
+			(at 165.735 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 19.685 0)
+			(at 165.735 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9777192b-fdff-4a02-88c9-3178b05dc96b")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 163.195 45.7199 0)
 			(effects
 				(font
@@ -4025,7 +4056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.275 27.305 90)
+		(at 170.18 27.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4033,8 +4064,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf6106a-ccd5-4d18-a787-beb4390f9251")
-		(property "Reference" "#PWR?"
-			(at 174.625 27.305 0)
+		(property "Reference" "#PWR0103"
+			(at 170.18 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,16 +4074,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.085 27.3049 90)
+			(at 172.085 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.275 27.305 0)
+			(at 170.18 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.275 27.305 0)
+			(at 170.18 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +4101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.275 27.305 0)
+			(at 170.18 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a358e46b-d44c-4c11-8589-f20b6d25d6fb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR019"
 			(at 56.515 106.68 0)
 			(effects
 				(font
@@ -4179,7 +4210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4d52d6-0db9-4cb8-a275-6f2592b1ed5f")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 33.2583 47.625 0)
 			(effects
 				(font
@@ -4352,7 +4383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b42e48c2-bc3c-4eab-930f-cc9b02e47938")
-		(property "Reference" "HEATER"
+		(property "Reference" "HEATER1"
 			(at 243.84 21.59 90)
 			(effects
 				(font
@@ -4425,7 +4456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be86d2f5-2bd9-4a4e-9fd8-294935b4d445")
-		(property "Reference" "1k"
+		(property "Reference" "R1"
 			(at 125.73 69.215 90)
 			(effects
 				(font
@@ -4499,7 +4530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2aa277d-ac8f-4cb0-afd6-c06a00d50e13")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR020"
 			(at 228.6 61.595 0)
 			(effects
 				(font
@@ -4571,7 +4602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ec433a-d425-4655-9e5f-24040779286d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 20.955 64.135 0)
 			(effects
 				(font
@@ -4642,7 +4673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c38e45bb-4a21-4e4b-b8db-9c986582de5c")
-		(property "Reference" "M?"
+		(property "Reference" "M3"
 			(at 164.465 24.13 90)
 			(effects
 				(font
@@ -4715,7 +4746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cab09d90-7aa1-416b-a03d-88fca542d89b")
-		(property "Reference" "M?"
+		(property "Reference" "M4"
 			(at 155.575 24.765 90)
 			(effects
 				(font
@@ -4789,7 +4820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5f94bd-c210-44f5-a237-9fd98605eb8f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR015"
 			(at 31.115 76.835 0)
 			(effects
 				(font
@@ -4861,7 +4892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd12b2f1-c058-49f5-bf3a-b2ac44bcce93")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 55.88 116.84 0)
 			(effects
 				(font
@@ -4934,7 +4965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2fd4d7b-36ef-4e52-8d12-9d841462ce05")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 231.775 48.8949 0)
 			(effects
 				(font
@@ -5040,7 +5071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6066715-3b14-49a2-b6f1-174dfb0e17af")
-		(property "Reference" "FINALCARRERA2"
+		(property "Reference" "FINALCARRERA1"
 			(at 44.45 109.855 0)
 			(effects
 				(font
@@ -5114,7 +5145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef7ce41c-df42-46f3-9cd9-ba1fd0ac04ed")
-		(property "Reference" "M?"
+		(property "Reference" "M2"
 			(at 64.77 57.7849 0)
 			(effects
 				(font
@@ -5190,7 +5221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efbc64ae-c63f-49f6-a376-0f0cd6c2b0c2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 136.525 75.565 0)
 			(effects
 				(font
@@ -5262,7 +5293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5c9c9b-998b-4bf2-a7a2-7d7ee0a7a2df")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 20.955 33.655 0)
 			(effects
 				(font
