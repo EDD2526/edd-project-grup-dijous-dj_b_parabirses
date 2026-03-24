@@ -3574,7 +3574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43ae6569-09a0-4587-b95b-52ce4eb1cf43")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 56.7533 31.75 0)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 		(instances
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722ddf71-ad35-4ade-8041-308c7d6e7091")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 209.7883 54.61 0)
 			(effects
 				(font
@@ -4169,7 +4169,7 @@
 		(instances
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
-					(reference "U1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
