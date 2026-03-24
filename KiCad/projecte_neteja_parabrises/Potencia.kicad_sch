@@ -3151,7 +3151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 125.73 46.355 0)
 			(effects
 				(font
@@ -3316,7 +3316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 217.17 51.943 90)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
 			(at 57.785 28.956 0)
 			(effects
 				(font
@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.782 120.65 90)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.877 102.87 90)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.095 65.913 90)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
 			(at 161.671 27.305 0)
 			(effects
 				(font
@@ -4758,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
 			(at 156.591 19.685 0)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
 			(at 60.325 58.801 0)
 			(effects
 				(font
