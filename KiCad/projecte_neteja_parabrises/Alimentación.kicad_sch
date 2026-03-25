@@ -1373,7 +1373,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Vout=1.25*(1+R2/R1)"
+	(text "Vout=1.25*(1+R5/R6)"
 		(exclude_from_sim no)
 		(at 229.362 74.168 0)
 		(effects
