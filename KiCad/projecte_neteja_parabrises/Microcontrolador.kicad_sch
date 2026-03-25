@@ -2339,6 +2339,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 26.67) (xy 45.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baef66ed-903d-4bd7-a550-995f9493c256")
+	)
+	(wire
+		(pts
 			(xy 36.83 69.85) (xy 36.83 72.39)
 		)
 		(stroke
@@ -2725,7 +2735,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 45.72 26.67 0)
+		(at 48.26 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2735,7 +2745,7 @@
 		)
 		(uuid "2530421a-c15e-4376-b3cc-7735b4257795")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.3338 26.67 0)
+			(at 54.8738 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
