@@ -12,7 +12,7 @@ EL objetivo principal es  mantener  la luna del cristal limpia, para ello tenemo
 
 
 ## Diagrama de blocs
-![Diagrama de bloques VF](Diagrama de bloques VF.png)
+![Diagrama de bloques](Diagrama%20de%20bloques%20VF.png)
 
 
 
