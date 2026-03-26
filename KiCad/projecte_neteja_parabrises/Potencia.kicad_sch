@@ -5323,7 +5323,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e466c6c5-6f36-4a7b-bf7a-3a46c2e6a74f")
+<<<<<<< HEAD
 		(property "Reference" "R15"
+=======
+		(property "Reference" "R?"
+>>>>>>> 05a4ef929289fb252ebdc901593f07d61bbd4b7f
 			(at 245.11 21.59 90)
 			(effects
 				(font
@@ -5381,7 +5385,11 @@
 			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
+<<<<<<< HEAD
 					(reference "R15")
+=======
+					(reference "R?")
+>>>>>>> 05a4ef929289fb252ebdc901593f07d61bbd4b7f
 					(unit 1)
 				)
 			)
