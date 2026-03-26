@@ -12,7 +12,7 @@ EL objetivo principal es  mantener  la luna del cristal limpia, para ello tenemo
 
 
 ## Diagrama de blocs
-![Diagrama de bloques V1]("C:\Users\maryp\Desktop\Carrera\2ºcarrera\EDD\edd-project-grup-dijous-dj_b_parabirses\esquematico.png")
+![Diagrama de bloques VF](Diagrama de bloques VF.png)
 
 
 
