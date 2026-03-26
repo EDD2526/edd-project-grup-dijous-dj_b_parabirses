@@ -3072,7 +3072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0699b2ef-59a7-4b49-af37-0f94e141629e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0109"
 			(at 31.115 46.355 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b7246ae-8a1f-4cd1-bc49-4662df34fe74")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR021"
 			(at 252.095 34.29 0)
 			(effects
 				(font
@@ -3311,7 +3311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260d3de4-3928-4ec0-b5d2-651359df036d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 24.765 100.965 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb0ce0e-90d4-4d6e-9a76-494a424999e8")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 217.17 46.355 90)
 			(effects
 				(font
@@ -3458,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3b7657-0b0c-4012-ae55-b987e13167bb")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 33.2583 17.78 0)
 			(effects
 				(font
@@ -3555,7 +3555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d5a28b-3afe-4e9d-b1db-95dbd80939d6")
-		(property "Reference" "FINALCARRERA1"
+		(property "Reference" "FINALCARRERA2"
 			(at 42.545 113.03 0)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440892c1-ec81-491a-b09f-14c387ad6c1d")
-		(property "Reference" "K1"
+		(property "Reference" "K3"
 			(at 245.11 36.1949 0)
 			(effects
 				(font
@@ -3801,7 +3801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6550b6-f2b3-4245-a124-5a1946a66c49")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0107"
 			(at 33.655 135.89 0)
 			(effects
 				(font
@@ -3873,7 +3873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "763f4118-47f4-4db8-8e4b-de4e81822fed")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 231.14 50.7999 0)
 			(effects
 				(font
@@ -4073,7 +4073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c564d56-9317-4357-b898-f59f6883cac9")
-		(property "Reference" "FINALCARRERA2"
+		(property "Reference" "FINALCARRERA1"
 			(at 45.085 95.25 0)
 			(effects
 				(font
@@ -4158,7 +4158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8df6058e-a490-457c-bd3c-5ec48e2123d4")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0102"
 			(at 165.735 26.035 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9777192b-fdff-4a02-88c9-3178b05dc96b")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 163.195 45.7199 0)
 			(effects
 				(font
@@ -4402,7 +4402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf6106a-ccd5-4d18-a787-beb4390f9251")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0103"
 			(at 170.18 33.655 0)
 			(effects
 				(font
@@ -4475,7 +4475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a358e46b-d44c-4c11-8589-f20b6d25d6fb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR019"
 			(at 56.515 106.68 0)
 			(effects
 				(font
@@ -4548,7 +4548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4d52d6-0db9-4cb8-a275-6f2592b1ed5f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 33.2583 47.625 0)
 			(effects
 				(font
@@ -4720,7 +4720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be86d2f5-2bd9-4a4e-9fd8-294935b4d445")
-		(property "Reference" "1k1"
+		(property "Reference" "R1"
 			(at 125.73 69.215 90)
 			(effects
 				(font
@@ -4794,7 +4794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07e1268-d4aa-4f4b-9971-67f5fdd0fe88")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR020"
 			(at 228.6 63.5 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ec433a-d425-4655-9e5f-24040779286d")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR08"
 			(at 20.955 64.135 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c38e45bb-4a21-4e4b-b8db-9c986582de5c")
-		(property "Reference" "M4"
+		(property "Reference" "M3"
 			(at 164.465 24.13 90)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cab09d90-7aa1-416b-a03d-88fca542d89b")
-		(property "Reference" "M3"
+		(property "Reference" "M4"
 			(at 155.575 24.765 90)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5f94bd-c210-44f5-a237-9fd98605eb8f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0108"
 			(at 31.115 76.835 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc736061-3807-4489-b149-98567983d5d8")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 220.98 37.4649 90)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd12b2f1-c058-49f5-bf3a-b2ac44bcce93")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0106"
 			(at 53.975 124.46 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e466c6c5-6f36-4a7b-bf7a-3a46c2e6a74f")
-		(property "Reference" "R4"
+		(property "Reference" "R?"
 			(at 245.11 21.59 90)
 			(effects
 				(font
@@ -5376,6 +5376,12 @@
 			(project ""
 				(path "/82bf9682-9f8b-46a0-adc6-e19c50674fc0"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/54835b05-573d-4299-97f2-a5366b1fd616"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5467,7 +5473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efbc64ae-c63f-49f6-a376-0f0cd6c2b0c2")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0101"
 			(at 136.525 75.565 0)
 			(effects
 				(font
@@ -5539,7 +5545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5c9c9b-998b-4bf2-a7a2-7d7ee0a7a2df")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR07"
 			(at 20.955 33.655 0)
 			(effects
 				(font
