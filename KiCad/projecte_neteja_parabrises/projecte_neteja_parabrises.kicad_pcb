@@ -170,6 +170,7 @@
 	(net 90 "unconnected-(U9-R2IN-Pad8)")
 	(net 91 "unconnected-(U9-T2IN-Pad10)")
 	(net 92 "unconnected-(U9-T2OUT-Pad7)")
+	(net 93 "Net-(K3-Pad14)")
 	(footprint "Crystal:Crystal_SMD_HC49-SD"
 		(layer "F.Cu")
 		(uuid "020082fe-274b-42e0-be4d-e6918d09b99e")
@@ -646,6 +647,146 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "08b90e31-f545-4c39-be4b-ccb0411f8c06")
+		(at 87.075 86.625)
+		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R15"
+			(at 0 -2.63 0)
+			(layer "F.SilkS")
+			(uuid "1da6a26f-fbc4-4410-8cec-6f162a97d496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Heater"
+			(at 0 2.63 0)
+			(layer "F.Fab")
+			(uuid "2da7a7db-f7b4-4164-9f88-9a35fffaf980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94d24547-3dea-48a1-b610-785b131bee28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "517f6973-0879-4d5e-a9ae-0e1727b91c08")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/54835b05-573d-4299-97f2-a5366b1fd616/e466c6c5-6f36-4a7b-bf7a-3a46c2e6a74f")
+		(sheetname "/Potencia/")
+		(sheetfile "Potencia.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.177064 -1.71)
+			(end 2.177064 -1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a311d236-5dcd-4b46-8307-f75ad600a538")
+		)
+		(fp_line
+			(start -2.177064 1.71)
+			(end 2.177064 1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2832a79d-424d-42fd-bb1b-5b5a56ba7cfb")
+		)
+		(fp_rect
+			(start -4 -1.93)
+			(end 4 1.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3697eb20-b056-4995-9412-8423aa12af5e")
+		)
+		(fp_rect
+			(start -3.15 -1.6)
+			(end 3.15 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c4225afe-b4ea-4b74-b761-306cbf4dc563")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8bac46d5-831e-4287-bccc-17b859bcd738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.05 0)
+			(size 1.4 3.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.178571)
+			(net 93 "Net-(K3-Pad14)")
+			(pintype "passive")
+			(uuid "19bc17ba-6464-46f6-9601-ddb0cde8d8d6")
+		)
+		(pad "2" smd roundrect
+			(at 3.05 0)
+			(size 1.4 3.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.178571)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "ad6cc145-1e27-4d73-a7f6-da2d4de83080")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "20acbf5f-1d19-4ddb-980d-286c6f83e05e")
@@ -1034,7 +1175,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/54835b05-573d-4299-97f2-a5366b1fd616/b42e48c2-bc3c-4eab-930f-cc9b02e47938")
 		(sheetname "/Potencia/")
 		(sheetfile "Potencia.kicad_sch")
 		(attr smd)
@@ -15056,7 +15196,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "Net-(HEATER1-Pad1)")
+			(net 93 "Net-(K3-Pad14)")
 			(pintype "passive")
 			(uuid "678327b7-f43d-4783-bb1a-aa9e81b38837")
 		)

@@ -2743,7 +2743,7 @@
 		)
 	)
 	(global_label "CANRX"
-		(shape input)
+		(shape output)
 		(at 193.04 65.405 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2985,7 +2985,7 @@
 		)
 	)
 	(global_label "RX"
-		(shape input)
+		(shape output)
 		(at 34.29 74.93 180)
 		(fields_autoplaced yes)
 		(effects
