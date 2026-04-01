@@ -3143,7 +3143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
 			(at 139.7 128.778 90)
 			(effects
 				(font
