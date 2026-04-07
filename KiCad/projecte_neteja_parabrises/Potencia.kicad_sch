@@ -2721,7 +2721,7 @@
 		)
 		(uuid "fd8f1b3b-bb8f-4208-b2e8-3f00d35fd881")
 	)
-	(global_label "GATE B"
+	(global_label "GATE B2"
 		(shape input)
 		(at 140.208 74.676 180)
 		(fields_autoplaced yes)
@@ -2733,7 +2733,7 @@
 		)
 		(uuid "0116afd5-ebeb-4d3a-9612-d772bc92f7cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.51 74.676 0)
+			(at 129.3005 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
