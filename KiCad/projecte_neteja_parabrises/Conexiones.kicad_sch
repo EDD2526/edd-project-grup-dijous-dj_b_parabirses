@@ -2256,12 +2256,6 @@
 		(uuid "e3d4c908-5b40-4828-bdc4-60856a19abcf")
 	)
 	(junction
-		(at 207.645 43.815)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5d61151-af31-43a0-942a-6b4a2d90edff")
-	)
-	(junction
 		(at 111.76 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2521,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 44.45) (xy 223.52 43.815)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa3abc4-83fd-4131-a240-b6e8fcfc1cf3")
-	)
-	(wire
-		(pts
 			(xy 220.345 69.85) (xy 220.345 76.835)
 		)
 		(stroke
@@ -2781,17 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.265 43.815) (xy 223.52 43.815)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9216bda0-06ec-41b9-8a4d-03afe5316a93")
-	)
-	(wire
-		(pts
-			(xy 207.645 43.815) (xy 207.645 50.8)
+			(xy 207.645 38.735) (xy 207.645 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2858,16 +2832,6 @@
 			(type default)
 		)
 		(uuid "b666d708-ddea-4be3-bfb1-0b229d2f66cf")
-	)
-	(wire
-		(pts
-			(xy 207.645 38.735) (xy 207.645 43.815)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71df3ca-d1aa-4a08-84e0-3ba83bb5bd1e")
 	)
 	(wire
 		(pts
@@ -3838,7 +3802,7 @@
 			(uuid "216024c6-fadb-409d-940d-21359acf067f")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "SW5")
 					(unit 1)
@@ -3908,7 +3872,7 @@
 			(uuid "a8a4cc50-04a5-4b6f-9140-4de0e9b1c019")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R12")
 					(unit 1)
@@ -4044,7 +4008,7 @@
 			(uuid "14f80f36-82a1-4695-9b21-d4c555b6df1b")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R21")
 					(unit 1)
@@ -4425,7 +4389,7 @@
 			(uuid "b14ac9dc-a0d7-4623-a9a5-769ed746c864")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R17")
 					(unit 1)
@@ -4495,73 +4459,6 @@
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 211.455 43.815 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a01a0bf-c5a7-40af-af2b-7818fd6a21a9")
-		(property "Reference" "C10"
-			(at 211.455 40.005 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47u"
-			(at 215.265 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 215.265 42.8498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 211.455 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 211.455 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11829f07-fadd-472c-bae1-71d02dfeccff")
-		)
-		(pin "1"
-			(uuid "8d3192ac-b17c-4ef8-95da-1fbb5ca2346a")
-		)
-		(instances
-			(project ""
-				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4662,7 @@
 			(uuid "3ba854dd-e531-4d15-a8a8-9b23603b501b")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R20")
 					(unit 1)
@@ -4995,7 +4892,7 @@
 			(uuid "e2b9be1a-e452-4671-aede-ab22999946ac")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R19")
 					(unit 1)
@@ -5327,7 +5224,7 @@
 			(uuid "bed7144f-b791-489e-a35d-29a933afed82")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR011")
 					(unit 1)
@@ -5397,7 +5294,7 @@
 			(uuid "0cc7aa1f-b259-4344-949c-42190ad54388")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R15")
 					(unit 1)
@@ -5463,7 +5360,7 @@
 			(uuid "2a8d248e-4c22-4f63-a96f-26f563cf5be8")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR04")
 					(unit 1)
@@ -5529,7 +5426,7 @@
 			(uuid "9ffa3286-00f7-4615-b9bd-659698d38a04")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR027")
 					(unit 1)
@@ -5669,72 +5566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 223.52 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf043ad3-13eb-4443-ae18-547281ae9fd9")
-		(property "Reference" "#PWR026"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e62c8970-aa1c-418e-8a7d-11dfd4764ac9")
-		)
-		(instances
-			(project ""
-				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 30.48 123.825 0)
 		(unit 1)
@@ -5863,7 +5694,7 @@
 			(uuid "6f1c50ff-240b-43ac-b22c-392c9f1683e9")
 		)
 		(instances
-			(project ""
+			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C16")
 					(unit 1)

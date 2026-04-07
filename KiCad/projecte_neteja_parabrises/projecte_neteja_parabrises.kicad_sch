@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Conexiones.kicad_sch"
 			(at 21.59 119.3296 0)
 			(effects
 				(font
