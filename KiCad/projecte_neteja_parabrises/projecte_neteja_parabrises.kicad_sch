@@ -130,7 +130,7 @@
 		)
 	)
 	(sheet
-		(at 109.855 73.025)
+		(at 109.347 73.533)
 		(size 67.31 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -146,7 +146,7 @@
 		)
 		(uuid "7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e")
 		(property "Sheetname" "Microcontrolador"
-			(at 109.855 72.3134 0)
+			(at 109.347 72.8214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontrolador.kicad_sch"
-			(at 109.855 116.7896 0)
+			(at 109.347 117.2976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
