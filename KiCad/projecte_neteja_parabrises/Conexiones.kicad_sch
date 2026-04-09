@@ -3405,6 +3405,12 @@
 			(uuid "30fd29d3-fbd7-4b8c-9cb5-8b9b4eb2cc0f")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR033")
@@ -3441,7 +3447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Vertical_P2.77x2.84mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
 			(at 254.635 66.675 0)
 			(effects
 				(font
@@ -3496,6 +3502,12 @@
 			(uuid "a6fdc609-3bb9-4ac9-b494-050a55d11122")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "J2")
@@ -3562,6 +3574,12 @@
 			(uuid "19a44d31-d4fa-45ea-a6a8-49968799170f")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR05")
@@ -3628,6 +3646,12 @@
 			(uuid "2c91712a-fee7-44f2-a8f0-ed1b08013d0f")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR034")
@@ -3664,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Vertical_P2.77x2.84mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
 			(at 111.125 71.12 0)
 			(effects
 				(font
@@ -3719,6 +3743,12 @@
 			(uuid "f024bf62-2666-4a2c-a02a-e5514079102c")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "J3")
@@ -3802,6 +3832,12 @@
 			(uuid "216024c6-fadb-409d-940d-21359acf067f")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "SW5")
@@ -3872,6 +3908,12 @@
 			(uuid "a8a4cc50-04a5-4b6f-9140-4de0e9b1c019")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R12")
@@ -3939,6 +3981,12 @@
 			(uuid "33d82199-1b8c-4eee-bd95-9f3375be7e12")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C8")
@@ -4008,6 +4056,12 @@
 			(uuid "14f80f36-82a1-4695-9b21-d4c555b6df1b")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R21")
@@ -4075,6 +4129,12 @@
 			(uuid "153c532c-bb37-4b9b-b4e6-67195bb5ee07")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C19")
@@ -4188,6 +4248,12 @@
 			(uuid "00090287-eb13-49c9-8952-a45142284b54")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "U9")
@@ -4254,6 +4320,12 @@
 			(uuid "4b932961-a3be-4ef7-93a2-10c28a9eb307")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR013")
@@ -4320,6 +4392,12 @@
 			(uuid "2ef3426b-aff0-46bd-9a8f-fa04efc5d59d")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR03")
@@ -4389,6 +4467,12 @@
 			(uuid "b14ac9dc-a0d7-4623-a9a5-769ed746c864")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R17")
@@ -4422,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 57.15 146.685 0)
 			(effects
 				(font
@@ -4456,6 +4540,12 @@
 			(uuid "6ac19817-dde0-43d6-aaff-ddc63f77c956")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "SW2")
@@ -4523,6 +4613,12 @@
 			(uuid "f963f160-e78d-4959-bca6-b83aac2adb8a")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR032")
@@ -4593,6 +4689,12 @@
 			(uuid "42450a78-cfaf-4de0-97b7-1166b8bf2386")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C6")
@@ -4662,6 +4764,12 @@
 			(uuid "3ba854dd-e531-4d15-a8a8-9b23603b501b")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R20")
@@ -4732,6 +4840,12 @@
 			(uuid "2f374a43-29ff-41d8-8980-77b3d89a3660")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C5")
@@ -4823,6 +4937,12 @@
 			(uuid "0153e609-ec7a-4374-afeb-f12527579fd6")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "U8")
@@ -4892,6 +5012,12 @@
 			(uuid "e2b9be1a-e452-4671-aede-ab22999946ac")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R19")
@@ -4959,6 +5085,12 @@
 			(uuid "d09c0e31-1d50-4ca7-bfe8-830f44f917a6")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C7")
@@ -5025,6 +5157,12 @@
 			(uuid "9d218d91-d8a6-487f-81e6-381be9441442")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR06")
@@ -5092,6 +5230,12 @@
 			(uuid "f9cb0f54-0321-4786-a960-c3ec1ea8d0d7")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C9")
@@ -5125,7 +5269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 57.15 126.365 0)
 			(effects
 				(font
@@ -5159,6 +5303,12 @@
 			(uuid "b29c62eb-bc2e-4b52-a126-61ba0e695166")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "SW1")
@@ -5224,6 +5374,12 @@
 			(uuid "bed7144f-b791-489e-a35d-29a933afed82")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR011")
@@ -5294,6 +5450,12 @@
 			(uuid "0cc7aa1f-b259-4344-949c-42190ad54388")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R15")
@@ -5360,6 +5522,12 @@
 			(uuid "2a8d248e-4c22-4f63-a96f-26f563cf5be8")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR04")
@@ -5426,6 +5594,12 @@
 			(uuid "9ffa3286-00f7-4615-b9bd-659698d38a04")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR027")
@@ -5491,6 +5665,12 @@
 			(uuid "3f4bed37-f5eb-47d8-8e61-ef1734f9aaed")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR035")
@@ -5557,6 +5737,12 @@
 			(uuid "04a6bafd-0862-45c2-a3e0-c12070b0a2f0")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "#PWR012")
@@ -5627,6 +5813,12 @@
 			(uuid "40b864a7-9b1b-4a21-92e2-1817ea1f8e9c")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "R16")
@@ -5694,6 +5886,12 @@
 			(uuid "6f1c50ff-240b-43ac-b22c-392c9f1683e9")
 		)
 		(instances
+			(project "Conexiones"
+				(path "/47f2d83f-0118-4c43-b244-ad68281e89cc"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/281f4b1b-fa83-45a0-8e9c-797a6b6648f6"
 					(reference "C16")
@@ -5702,4 +5900,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

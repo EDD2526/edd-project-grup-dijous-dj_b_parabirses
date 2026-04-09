@@ -2001,7 +2001,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Omron_B3FS"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2021,7 +2021,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Omron_B3FS"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -2038,7 +2038,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2047,7 +2047,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2065,16 +2065,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Omron_B3FS_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2325,20 +2316,8 @@
 		(uuid "21be9f1c-d954-4c17-b79c-1960d3a161ed")
 	)
 	(no_connect
-		(at 78.74 119.38)
-		(uuid "220eb462-cfe0-4474-88d5-bb8774975106")
-	)
-	(no_connect
-		(at 83.82 48.26)
-		(uuid "2bbd87de-ba05-43b9-8472-a7e063f8d96b")
-	)
-	(no_connect
-		(at 48.26 119.38)
-		(uuid "2d19525a-d65d-4a3c-b8a3-1ec692fcf00f")
-	)
-	(no_connect
-		(at 88.9 119.38)
-		(uuid "4888390b-f2e4-4958-84a8-8728893be96e")
+		(at 63.5 119.38)
+		(uuid "3219b755-d0b6-46a8-91a4-9e820b494ab4")
 	)
 	(no_connect
 		(at 244.475 45.72)
@@ -2349,8 +2328,12 @@
 		(uuid "4b77028b-c402-48b9-a7d0-7d873fb12e87")
 	)
 	(no_connect
-		(at 83.82 119.38)
-		(uuid "83ac120d-2566-4c70-9913-ef838cbca9c3")
+		(at 31.242 109.22)
+		(uuid "6797e733-4101-4c49-92d7-6db7860f4056")
+	)
+	(no_connect
+		(at 30.988 104.14)
+		(uuid "a0488bbd-a23b-4b6c-9093-6760ef891134")
 	)
 	(no_connect
 		(at 93.98 48.26)
@@ -2369,12 +2352,20 @@
 		(uuid "ba22fae7-7cc2-43a3-ba0e-d0740ffac637")
 	)
 	(no_connect
-		(at 68.58 119.38)
-		(uuid "f7130e42-df01-46aa-a136-7229bed83a31")
+		(at 31.496 78.74)
+		(uuid "dad8ba83-e5f1-4590-8b06-9829cbc681e6")
 	)
 	(no_connect
-		(at 63.5 119.38)
-		(uuid "fb9b3093-9d1a-4b28-8953-a90750cf7f06")
+		(at 88.9 119.38)
+		(uuid "e35af77f-9004-48b1-ac33-bd2e7599c689")
+	)
+	(no_connect
+		(at 108.204 104.14)
+		(uuid "ef3100f6-a4a3-4b9f-9d6b-be816b05ad56")
+	)
+	(no_connect
+		(at 68.58 119.38)
+		(uuid "f7130e42-df01-46aa-a136-7229bed83a31")
 	)
 	(wire
 		(pts
@@ -2586,16 +2577,6 @@
 		)
 		(uuid "5feecae7-e301-4001-8466-7d17c1e8bd4d")
 	)
-	(wire
-		(pts
-			(xy 31.75 68.58) (xy 34.29 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e1c427-e6fc-45da-bfda-de762e90a5dc")
-	)
 	(polyline
 		(pts
 			(xy 192.405 12.065) (xy 192.405 69.85)
@@ -2665,16 +2646,6 @@
 			(type default)
 		)
 		(uuid "87386b09-dc7e-48c3-93a1-be47a217da9d")
-	)
-	(wire
-		(pts
-			(xy 30.734 73.66) (xy 34.29 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88beceb8-27fc-47ed-96c3-850f6e187af2")
 	)
 	(wire
 		(pts
@@ -3098,44 +3069,44 @@
 	)
 	(global_label "FC1"
 		(shape input)
-		(at 30.988 104.14 180)
+		(at 109.22 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1754a3f6-0c45-4dd2-92fa-f83f7217c504")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.4347 104.14 0)
+			(at 115.7733 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "GATE B"
 		(shape input)
-		(at 31.75 68.58 180)
+		(at 54.61 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1d6e4c5d-31f8-48c6-b135-d26a6b021d89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.052 68.58 0)
+			(at 54.61 36.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3208,22 +3179,22 @@
 	)
 	(global_label "SW3"
 		(shape input)
-		(at 109.22 93.98 0)
+		(at 58.42 124.46 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "35b09019-402f-47b3-bb2d-dfedb1f500b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.0756 93.98 0)
+			(at 58.42 131.3156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3252,22 +3223,22 @@
 	)
 	(global_label "SW1"
 		(shape input)
-		(at 108.204 104.14 0)
+		(at 48.26 119.38 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3e8ee381-887b-45fd-8382-6d2060e096a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.0596 104.14 0)
+			(at 48.26 126.2356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3296,22 +3267,22 @@
 	)
 	(global_label "GATE C"
 		(shape input)
-		(at 31.496 78.74 180)
+		(at 83.82 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6875a37e-9f61-4670-bbe9-b10ca4949860")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.798 78.74 0)
+			(at 83.82 38.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3340,7 +3311,7 @@
 	)
 	(global_label "CANRX"
 		(shape input)
-		(at 53.34 124.46 270)
+		(at 34.29 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3350,7 +3321,7 @@
 		)
 		(uuid "7375eb52-f157-43ec-8553-f42ecf5dc4b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 133.6138 90)
+			(at 25.1362 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,22 +3377,22 @@
 	)
 	(global_label "SWB"
 		(shape input)
-		(at 54.61 45.72 90)
+		(at 83.82 119.38 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "860baafe-1f31-443c-8fa8-def89c7e7acc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 38.8039 90)
+			(at 83.82 126.2961 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3472,29 +3443,7 @@
 	)
 	(global_label "SWC"
 		(shape input)
-		(at 59.69 45.72 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "954c25c8-f5e2-4998-98b2-79308871e7aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 38.8039 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FC2"
-		(shape input)
-		(at 31.242 109.22 180)
+		(at 78.74 119.38 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3502,14 +3451,36 @@
 			)
 			(justify right)
 		)
-		(uuid "962ea5e3-3a42-4856-af75-d42fc5a6ac04")
+		(uuid "954c25c8-f5e2-4998-98b2-79308871e7aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.6887 109.22 0)
+			(at 78.74 126.2961 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FC2"
+		(shape input)
+		(at 108.458 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "962ea5e3-3a42-4856-af75-d42fc5a6ac04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.0113 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3560,22 +3531,22 @@
 	)
 	(global_label "GATE B2"
 		(shape input)
-		(at 30.734 73.66 180)
+		(at 59.69 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b20cbb3c-2e93-4510-a4db-fac95aace312")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8265 73.66 0)
+			(at 59.69 34.8125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3626,7 +3597,7 @@
 	)
 	(global_label "CANTX"
 		(shape output)
-		(at 58.42 124.46 270)
+		(at 34.29 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3636,7 +3607,7 @@
 		)
 		(uuid "c98fea86-50d3-40fa-9053-ffc5e56d1075")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 133.3114 90)
+			(at 25.4386 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,22 +3707,22 @@
 	)
 	(global_label "SW2"
 		(shape input)
-		(at 108.458 99.06 0)
+		(at 53.34 124.46 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f4b9bbcc-1431-4091-8605-6f01b5d8e7b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.3136 99.06 0)
+			(at 53.34 131.3156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4291,6 +4262,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 61.214 23.622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c32a874-0b65-4ccf-bd92-afcaefa04452")
+		(property "Reference" "SW3"
+			(at 63.119 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CALEFACTOR"
+			(at 63.119 17.907 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 61.214 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 61.214 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 61.214 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2da275-49b0-4b6e-a288-4fdd02a94b18")
+		)
+		(pin "2"
+			(uuid "d4ceeadf-849e-48d3-a54d-e6d924e565f7")
+		)
+		(instances
+			(project "Microcontrolador"
+				(path "/13b3ea76-35d1-4ab6-902e-d6623dcea9d5"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+			(project "projecte_neteja_parabrises"
+				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.275 45.72 0)
 		(unit 1)
@@ -4361,80 +4405,6 @@
 			(project "projecte_neteja_parabrises"
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 61.214 23.622 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212b2d2b-99cb-4e3b-8d47-6156a1f86388")
-		(property "Reference" "SW4"
-			(at 61.214 16.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 61.214 18.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 61.214 18.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 61.214 18.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 61.214 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00138941-2639-4ef9-a1c6-56ee95773aad")
-		)
-		(pin "1"
-			(uuid "70882d1d-0cb8-4431-865e-c31f866bcaf3")
-		)
-		(instances
-			(project "Microcontrolador"
-				(path "/13b3ea76-35d1-4ab6-902e-d6623dcea9d5"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/7b0ed2a6-dd0e-4fb8-9a3e-b81f5336277e"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
