@@ -4904,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
+		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering"
 			(at 160.655 39.37 0)
 			(effects
 				(font
