@@ -703,7 +703,7 @@
 	(footprint "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering"
 		(layer "F.Cu")
 		(uuid "0a8254e4-85bf-467e-a37f-f350a95067b8")
-		(at 135.412 92.6866 90)
+		(at 143 93.425 90)
 		(descr "EuroQuartz EQ161, Crystal, 3.2x1.5mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/PG32768C.pdf")
 		(property "Reference" "Y1"
 			(at 0 -1.95 90)
@@ -2326,14 +2326,169 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(layer "F.Cu")
+		(uuid "21c1dfd9-3eec-435b-bfc8-1598fd973545")
+		(at 209.1 118.35)
+		(descr "Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
+		(tags "Test Point")
+		(property "Reference" "TP3"
+			(at 0 -2.25 0)
+			(layer "F.SilkS")
+			(uuid "7f6af1b4-c951-4381-9c2e-aab51be4b99d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "5626a972-b39b-4623-adda-7593beae091d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0cad348-e919-421a-bc23-ac9856deacc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6d2a60f-047f-4cd1-bc10-21b483d5a609")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a8962c48-b3a9-4541-b459-e1566624b900/7ec424e2-21e0-4585-bfd3-b880762b5a22")
+		(sheetname "/Alimentación/")
+		(sheetfile "Alimentación.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -1.9 -1.1)
+			(end 1.9 1.1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6daf2c2c-d84c-431c-8715-a952225ee8b8")
+		)
+		(fp_line
+			(start -2.15 -1.35)
+			(end 2.15 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24a2708f-8278-4f20-bc07-5f1f456752a5")
+		)
+		(fp_line
+			(start -2.15 1.35)
+			(end -2.15 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "419b7efa-6a3f-489d-864f-019018dd9e9c")
+		)
+		(fp_line
+			(start 2.15 -1.35)
+			(end 2.15 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b5c56717-926a-4a53-8e94-9e27e6bdd8d1")
+		)
+		(fp_line
+			(start 2.15 1.35)
+			(end -2.15 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "414d93c8-7329-4d02-8563-9de29f147e5a")
+		)
+		(fp_rect
+			(start -1.35 -0.5)
+			(end 1.35 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4a3ec76c-1471-49bc-8894-4a00e59cdfe2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5709708d-2f35-4dc1-872c-7f380a55c098")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 3.4 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 14 "VDD")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3997d8ad-164d-4a32-86bf-5b85828a0d44")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2270b348-c024-439f-97ee-9869d78e7c19")
-		(at 140.2304 91.8916 -90)
+		(at 149.53 92.51 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 90)
+			(at -2.31 0.03 180)
 			(layer "F.SilkS")
 			(uuid "0464215d-16cc-4d5d-b27b-d471fb6e7f0b")
 			(effects
@@ -4350,6 +4505,161 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(layer "F.Cu")
+		(uuid "293cd335-c470-43a9-a82c-6f2bc844f0eb")
+		(at 209.1 114)
+		(descr "Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
+		(tags "Test Point")
+		(property "Reference" "TP2"
+			(at 0 -2.25 0)
+			(layer "F.SilkS")
+			(uuid "9a66c6e5-c7f7-48d6-8f2e-409037fc057f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "6d3ebe8a-e432-4cab-a24c-079eab470571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b68ed419-230d-4245-b355-05287b6f9ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df9096c9-69c9-4c80-939d-e92db26b980b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a8962c48-b3a9-4541-b459-e1566624b900/a1b40bb2-9391-4e4c-8423-383606865be6")
+		(sheetname "/Alimentación/")
+		(sheetfile "Alimentación.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -1.9 -1.1)
+			(end 1.9 1.1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b0a8c3ef-3c07-480e-bff3-1ea27e81087c")
+		)
+		(fp_line
+			(start -2.15 -1.35)
+			(end 2.15 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c43f8383-5b36-4241-ac30-5fc925742150")
+		)
+		(fp_line
+			(start -2.15 1.35)
+			(end -2.15 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6703e509-91f4-4602-9e4d-2fa1e8cacf0b")
+		)
+		(fp_line
+			(start 2.15 -1.35)
+			(end 2.15 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d1a1508d-ed21-4082-b4a5-f53e968c1628")
+		)
+		(fp_line
+			(start 2.15 1.35)
+			(end -2.15 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "40bca112-9369-49b8-a69e-dc6d36e38b05")
+		)
+		(fp_rect
+			(start -1.35 -0.5)
+			(end 1.35 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "6a202455-553c-43f5-af4e-8f75b52a67a0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a972ae08-5a89-4d04-a66b-bea97eb073bb")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 3.4 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 12 "5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "0df9cb94-5a82-4671-8bb0-448a2f2c5dc0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Button_Switch_THT:SW_NKK_NR01"
 		(layer "F.Cu")
 		(uuid "29640114-e416-46c9-9ccb-40efb18ad647")
@@ -6175,7 +6485,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "34a8f940-e3f6-4df4-a078-ff9e1e40a205")
-		(at 135.6 96.6378 180)
+		(at 143.95 101.7 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -21842,13 +22152,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "eb8e433a-4e8c-4e68-8534-2a8d3a2261fa")
-		(at 140.2004 95.5816 -90)
+		(at 149.5 96.2 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 90)
+			(at 2.5 0.2 0)
 			(layer "F.SilkS")
-			(uuid "d0de4b90-6457-4ed0-a05c-6010085f1ec0")
+			(uuid "f3a81096-6614-4d3b-a15e-6cecb7b53c81")
 			(effects
 				(font
 					(size 1 1)
@@ -21859,7 +22169,7 @@
 		(property "Value" "20p"
 			(at 0 1.68 90)
 			(layer "F.Fab")
-			(uuid "adf52321-32ff-40c2-a0cd-459d12a9c67e")
+			(uuid "ebcf2a17-1537-4108-8c33-6467a7f8c843")
 			(effects
 				(font
 					(size 1 1)
@@ -21871,7 +22181,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "334f4c00-4475-406b-af66-57de66756c41")
+			(uuid "35aa841e-0078-4960-9856-7a5d0a00e61f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21883,7 +22193,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2c57c2c-9c89-426e-9947-140bf2c480d1")
+			(uuid "3c3e55ed-d233-415b-b352-352f3931182b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21969,6 +22279,161 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(layer "F.Cu")
+		(uuid "ed2e09ad-6730-46ac-8d36-7a32e0b60d63")
+		(at 209.1 109.65)
+		(descr "Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
+		(tags "Test Point")
+		(property "Reference" "TP1"
+			(at 0 -2.25 0)
+			(layer "F.SilkS")
+			(uuid "339ff485-5bb9-4144-9015-8fd91611d0a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "f201a52b-1deb-46ac-a634-0d3c905db467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62060532-7993-4f0c-8d9b-b6ddeec52574")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d76c53f-52c8-4b2b-a9bc-ff3817e9ea62")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a8962c48-b3a9-4541-b459-e1566624b900/7de90731-e7eb-4388-843b-0cdd1cbfb3af")
+		(sheetname "/Alimentación/")
+		(sheetfile "Alimentación.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -1.9 -1.1)
+			(end 1.9 1.1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "14000f28-71c1-4f1b-af8c-8fb2267b4c50")
+		)
+		(fp_line
+			(start -2.15 -1.35)
+			(end 2.15 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d83110d7-9e41-47a6-89b4-7db58ecea194")
+		)
+		(fp_line
+			(start -2.15 1.35)
+			(end -2.15 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e4172fd-8651-451a-bbaa-169578d302d1")
+		)
+		(fp_line
+			(start 2.15 -1.35)
+			(end 2.15 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "918c3db8-9441-46d7-b9ab-e5ce8d37c2b6")
+		)
+		(fp_line
+			(start 2.15 1.35)
+			(end -2.15 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5edce134-a334-44d0-83a1-d7e59115e3f7")
+		)
+		(fp_rect
+			(start -1.35 -0.5)
+			(end 1.35 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f18a73dc-b580-46cb-ae96-0dd266f3f543")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "25736323-17b9-4a6a-bef2-da69ef7271d1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 3.4 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 107 "Vbat")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "d8e5365e-f6b2-449c-b79a-71c7d6be4104")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22950,6 +23415,54 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "98ca1010-2a81-4c61-b8e6-1486d3fe6911")
+	)
+	(segment
+		(start 143 95.05)
+		(end 139.55 95.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "330526a5-d8bb-4415-9c38-c1bd839839ad")
+	)
+	(segment
+		(start 139.55 95.05)
+		(end 136.9 92.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "60f380f2-7ea2-491b-ae40-f0b1b478a448")
+	)
+	(segment
+		(start 136.8984 92.4016)
+		(end 132.8879 92.4016)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "d05f6c72-c1ae-4cde-8a2a-800e7beab078")
+	)
+	(segment
+		(start 136.9 92.4)
+		(end 136.8984 92.4016)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "e736b013-a607-4505-9144-fd615f2d5eb8")
+	)
+	(segment
+		(start 132.8879 91.9016)
+		(end 142.8984 91.9016)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "184f41b9-827e-4918-9f81-eb2d1a4f68f0")
+	)
+	(segment
+		(start 142.8984 91.9016)
+		(end 143 91.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "a4dfc012-f2fe-4280-8eba-726fa7e9cf60")
 	)
 	(embedded_fonts no)
 )
