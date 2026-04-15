@@ -2985,7 +2985,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 42.545 99.06 90)
 		(fields_autoplaced yes)
@@ -3007,7 +3007,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 42.545 118.11 90)
 		(fields_autoplaced yes)
