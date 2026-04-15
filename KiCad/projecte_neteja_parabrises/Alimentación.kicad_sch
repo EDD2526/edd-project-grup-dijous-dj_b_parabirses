@@ -2092,7 +2092,7 @@
 		)
 		(uuid "e8252454-dd63-407c-bee8-02750ad3cbb6")
 	)
-	(global_label "Vbat"
+	(global_label "12V"
 		(shape input)
 		(at 32.766 79.502 0)
 		(fields_autoplaced yes)
@@ -2104,7 +2104,7 @@
 		)
 		(uuid "24301ed9-3a61-4d7c-9d35-0ba774a7a3b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.8635 79.502 0)
+			(at 39.2588 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 			)
 		)
 	)
-	(global_label "Vbat"
+	(global_label "12V"
 		(shape input)
 		(at 59.69 80.01 180)
 		(fields_autoplaced yes)
@@ -2148,7 +2148,7 @@
 		)
 		(uuid "3aeaece1-9c53-4462-9d5a-d58b0b50c90c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.5925 80.01 0)
+			(at 53.1972 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,6 +3122,12 @@
 			(uuid "8e68efd5-b226-442f-ad58-7866791cc876")
 		)
 		(instances
+			(project "Alimentación"
+				(path "/2ad4f79a-6f2e-459e-be48-40e5d52d2cdd"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/a8962c48-b3a9-4541-b459-e1566624b900"
 					(reference "TP1")
@@ -3189,6 +3195,12 @@
 			(uuid "bb02ef4c-5e5d-4ae3-8097-75d191deca15")
 		)
 		(instances
+			(project "Alimentación"
+				(path "/2ad4f79a-6f2e-459e-be48-40e5d52d2cdd"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/a8962c48-b3a9-4541-b459-e1566624b900"
 					(reference "TP3")
@@ -3256,6 +3268,12 @@
 			(uuid "05698ac7-b28c-4855-aced-9409a9bbfc76")
 		)
 		(instances
+			(project "Alimentación"
+				(path "/2ad4f79a-6f2e-459e-be48-40e5d52d2cdd"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/83fe8808-b70b-463e-9fcd-89556c9690a9/a8962c48-b3a9-4541-b459-e1566624b900"
 					(reference "TP2")
