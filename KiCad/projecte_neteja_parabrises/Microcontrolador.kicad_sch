@@ -3073,7 +3073,7 @@
 			)
 		)
 	)
-	(global_label "VDD"
+	(global_label "5V"
 		(shape input)
 		(at 234.315 26.67 90)
 		(fields_autoplaced yes)
@@ -3085,7 +3085,7 @@
 		)
 		(uuid "061d867b-918b-4bad-8285-ef38a0384d8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.315 20.0562 90)
+			(at 234.315 21.3867 90)
 			(effects
 				(font
 					(size 1.27 1.27)
