@@ -12,14 +12,22 @@ EL objetivo principal es  mantener  la luna del cristal limpia, para ello tenemo
 
 
 ## Diagrama de blocs
-![Diagrama de bloques](Diagrama%20de%20bloques%20VF.png)
+![Diagrama de bloques](DIAGRAMA%20DE%20BLOQUES%20VF.png)
 
 
 
 ### Descripció/funcionalitat de cada bloc
 
-  *
-
+  Tenemos el micro en el centro que funcionará como cerebro de todo.
+  Como se puede observar uno de los sería la alimentación, consta de un conector que permite meter 12V, después pasa por un convertidor        
+  DC-DC, para obtener 5V y por último un regulador para tener un voltaje de 3V.
+  Por otro lado tenemos el bloque de potencia: consta de los drivers y motores de los limpiaparabrisas, de los circuitos relé tanto para 
+  las bombas, como para el calefactor, y de finales de carrera que permitan volver a su estado inicial.   
+  Por último un bloque de conexión/usuario: consta del BUS CAN, este permite la comunicación con otros módulos, el UART, transforma los 
+  datos de forma que puedan ser leídos/enviados a un ordenador. También esta el sensor digital de lluvia que detecta cuando hay lluvia y 
+  que el motor se ponga en marcha, y por último tendríamos la botonera: sirve para que el usuario acomode el modo del limpiaparabrisas o 
+  encienda y apague el calefactor.       
+  
 -----------
 
 ## Requisits / Especificacions
