@@ -80,7 +80,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../gerbers/")
 		)
 	)
 	(net 0 "")
@@ -28596,8 +28596,8 @@
 		)
 		(polygon
 			(pts
-				(xy 77.33 54.18) (xy 77.36 68.75) (xy 159.21 68.17) (xy 159.13 86.8302) (xy 160.61 86.83) (xy 160.61 86.83)
-				(xy 166.73 86.84) (xy 167.09 86.84) (xy 167.23 102.02) (xy 167.23 107.49) (xy 193.44 107.66) (xy 193.28 53.87)
+				(xy 77.33 54.18) (xy 77.36 68.75) (xy 159.21 68.17) (xy 159.13 86.8302) (xy 160.61 86.83) (xy 166.73 86.84)
+				(xy 167.09 86.84) (xy 167.23 102.02) (xy 167.23 107.49) (xy 193.44 107.66) (xy 193.28 53.87)
 			)
 		)
 		(filled_polygon
